@@ -33,8 +33,11 @@ header{
     color: #eaa133;
 }
 
+nav {
+    text-align: center;
+}
+
 nav a{
-    text-align: center; 
     text-decoration: none;
     background-color: #fff3e1;
     color: #2f272a; 
