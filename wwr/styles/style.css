@@ -1,0 +1,105 @@
+div #content{
+    max-width: 1600px; 
+    margin: 0 auto; 
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
+
+#hero-msg{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #bde0fe;
+}
+
+header{
+    background-color: #bde0fe;
+    color: #eaa133;
+}
+
+nav a{
+    text-align: center; 
+    text-decoration: none;
+    background-color: #fff3e1;
+    color: #2f272a; 
+}
+
+nav a:hover{
+    background-color: #fff3e1;
+    color: #2f272a; 
+}
+
+.book{
+    color: #eaa133;
+    text-decoration: none;
+}
+
+.join{
+    color: #eaa133;
+    text-decoration: none;
+}
+
+.book:hover{
+    background-color: #ffddd2;
+}
+
+.join:hover{
+    background-color: #ffddd2;
+}
+
+.msg{
+    background-color: #bde0fe;
+    
+}
+
+footer{
+    background-color: #bde0fe;
+    color: #2f272a;
+}
+
+footer p{
+    font-size: 1.2em; 
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: #eaa133;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #fff3e1;
+    color: #2f272a; 
+}
+
+.logo{
+    width: 80px; 
+}
+
+.icon{
+    width:80px; 
+}
+
+#hero-img{
+    width: 100%; 
+}
+
