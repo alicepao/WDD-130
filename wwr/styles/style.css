@@ -3,8 +3,12 @@ div #content{
     margin: 0 auto; 
 }
 
-nav{
-    text-align: center;
+.home-title {
+    background-color: #fff3e1;
+}
+
+h4{
+    color:#1dbdbb; 
 }
 
 a{
@@ -37,6 +41,7 @@ nav a{
     text-decoration: none;
     background-color: #fff3e1;
     color: #2f272a; 
+    text-align: center;
 }
 
 nav a:hover{
@@ -64,7 +69,14 @@ nav a:hover{
 
 .msg{
     background-color: #bde0fe;
-    
+}
+
+.msg h2{
+    color: #2f272a; 
+}
+
+.msg p{
+    color: #2f272a; 
 }
 
 footer{
