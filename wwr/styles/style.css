@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Serif+Toto&family=Permanent+Marker&display=swap');
+
+:root{
+    --heading-font: "Permanent Marker", "Caveat", sans-serif;
+    --paragraph-font: "Noto Serif Toto", Helvetica, sans-serif;
+}
+
+body {
+    font-family: "Noto Serif Toto", Helvetica, sans-serif;
+    font-size: 22px; 
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.logo{
+    width: 80px; 
+}
+
+h2 {
+    margin: 0;
+}
+
+
 #content{
     max-width: 1600px; 
     margin: 0 auto; 
@@ -13,6 +40,7 @@ nav a{
     background-color: #fff3e1;
     color: #2f272a; 
     text-align: center;
+    padding: 35px; 
 }
 
 nav a:hover{
@@ -32,14 +60,6 @@ nav a:hover{
     text-align: center;
 }
 
-h4{
-    color:#1dbdbb; 
-}
-
-.home-title {
-    background-color: #fff3e1;
-}
-
 .button-box{
     text-align: center;
 }
@@ -47,10 +67,43 @@ h4{
 .book{
     color: #eaa133;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
     background-color: #ffddd2;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.icon{
+    width:80px; 
+    padding-top: 10px;
+}
+
+h4{
+    color:#1dbdbb; 
+}
+
+.home-title {
+    background-color: #fff3e1;
+    font-family: "Permanent Marker", "Caveat", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
 }
 
 a{
@@ -68,7 +121,11 @@ main{
 
 .join{
     color: #eaa133;
+    font-size: 18px;
     text-decoration: none;
+    padding: 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -77,19 +134,27 @@ main{
 
 .msg{
     background-color: #bde0fe;
+    line-height: 1.5em;
+    padding: 35px; 
 }
 
 .msg h2{
     color: #2f272a; 
+    font-family: "Permanent Marker", "Caveat", sans-serif;
 }
 
 .msg p{
     color: #2f272a; 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #bde0fe;
     color: #2f272a;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -100,6 +165,10 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+.social img {
+    padding-top: 15px;
+}
+
 footer a{
     color: #eaa133;
     text-decoration: none;
@@ -108,12 +177,4 @@ footer a{
 footer a:hover{
     background-color: #fff3e1;
     color: #2f272a; 
-}
-
-.logo{
-    width: 80px; 
-}
-
-.icon{
-    width:80px; 
 }
