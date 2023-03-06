@@ -433,6 +433,11 @@ footer a:hover{
     margin-top: 3em;
 }
 
+#button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
